@@ -1,1 +1,38 @@
-// style.css
+body{
+margin: 0;
+padding: 0;
+}
+
+
+
+
+
+
+.footer-div {
+
+   width: 100%;
+   background-color: #537598
+
+ }
+
+ .footer-grid {
+   display:grid;
+   grid-template-columns:15% auto auto auto 15%;
+ }
+p {
+  color: white;
+  text-align: left;
+  font-family: 'Verdana';
+  font-size:14px;
+  line-height: 22px;
+}
+li {
+  list-style: none;
+  color:white;
+
+
+
+}
+.test{
+  min-height: 90vh;
+}
