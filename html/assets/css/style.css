@@ -4,9 +4,57 @@ padding: 0;
 }
 
 
+/******************************/
+/* header                     */
+/******************************/
+
+.top-bar{
+  background-color: #42b0da;
+  width:100%;
+
+}
+
+/*******************************/
+/* body                        */
+/*******************************/
+
+.content {
+  color:black;
+}
+
+button{
+  background-color: 3fbbf1;
+  color: white;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 8px;
+  box-shadow: none;
+}
+
+button:hover{
+  background-color: #3896bb;
+  transition: all 1s ease;
+}
 
 
+.kurs-content{
+  width: 1280px;
+  margin: 0 auto;
+}
+a{
+  font-size: 22px;
+  color: #0073aa;
+  text-decoration: none;
+}
+.h3{
+  font-family: 'helvetica';
+}
 
+/***********************************/
+/* footer                          */
+/***********************************/
 
 .footer-div {
 
