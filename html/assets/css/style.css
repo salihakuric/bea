@@ -1,7 +1,42 @@
+@font-face {
+font-family: 'Verdana';
+src: url(../fonts/Verdana.eot);
+src: url(../fonts/Verdana.eot) format('embedded-opentype'),
+url(../fonts/Verdana.woff2) format('woff2'),
+url(../fonts/Verdana.woff) format('woff'),
+url(../fonts/Verdana.ttf) format('truetype'),
+url(../fonts/Verdana.svg) format('svg');
+}
+@font-face {
+font-family: 'helvetica';
+src: url(../fonts/helvetica.eot);
+src: url(../fonts/helvetica.eot) format('embedded-opentype'),
+url(../fonts/helvetica.woff2) format('woff2'),
+url(../fonts/helvetica.woff) format('woff'),
+url(../fonts/helvetica.ttf) format('truetype'),
+url(../fonts/helvetica.svg) format('svg');
+}
+
 body{
+font-family: 'Verdana' !important;
+background: #c8edfb;
+font-size: 14px !important;
+line-height: 24px !important;
+color: #333333 !important;
 margin: 0;
 padding: 0;
 }
+p{
+font-family: 'Verdana' !important;
+font-size: 14px;
+color: #333333;
+line-height: 22px !important;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'helvetica' !important;
+color: #333;
+}
+
 
 
 /******************************/
