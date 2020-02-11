@@ -19,7 +19,6 @@ url(../fonts/helvetica.svg) format('svg');
 
 body{
 font-family: 'Verdana' !important;
-background: #c8edfb;
 font-size: 14px !important;
 line-height: 24px !important;
 color: #333333 !important;
@@ -35,8 +34,8 @@ line-height: 22px !important;
 h1, h2, h3, h4, h5, h6{
 font-family: 'helvetica' !important;
 color: #333;
+    font-weight: 500;
 }
-
 
 
 /******************************/
@@ -53,6 +52,10 @@ color: #333;
 /* body                        */
 /*******************************/
 
+.background-image img{
+width: 100%;
+}
+
 .content {
   color:black;
 }
@@ -65,7 +68,6 @@ button{
   border-radius: 5px;
   display: inline-block;
   margin-right: 8px;
-  box-shadow: none;
 }
 
 button:hover{
@@ -83,8 +85,30 @@ a{
   color: #0073aa;
   text-decoration: none;
 }
-.h3{
+h3{
   font-family: 'helvetica';
+}
+.heading {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    color: #333;
+    margin-top: 0px;
+  }
+
+  h4, h5, h6, .h4, .h5, .h6 {
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+      margin-top: 0.75rem;
+  }
+
+  h4, .h4 {
+    font-size: 1.375rem;
+}
+
+.forma {
+  width: 100%;
 }
 
 /***********************************/
